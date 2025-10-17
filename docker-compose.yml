@@ -6,6 +6,8 @@ services:
     container_name: laravel_app
     volumes:
       - ./backend:/var/www/html
+    command: >
+            sh -c "composer install"
     depends_on:
       - db
     environment:
