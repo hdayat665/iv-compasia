@@ -118,8 +118,8 @@ const submit = async () => {
   try {
     await auth.login(form.value)
   } catch (error) {
-    error.value = error
-    console.log(error)
+    alert(error.message)
+    error.value = error.message
   }
 }
 
