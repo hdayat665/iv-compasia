@@ -63,9 +63,9 @@ Login
 
   - laravel_app → Laravel backend
 
-  - db → MySQL database
+  - mysql_db → MySQL database
 
-  - nginx_server → Nginx frontend
+  - nginx_server → Web Server
 
   - queue_worker → Queue jobs 
 
